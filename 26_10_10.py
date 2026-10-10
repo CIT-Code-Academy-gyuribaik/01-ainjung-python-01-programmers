@@ -10,3 +10,11 @@ def solution(num_list):
             q=q+1
     answer= [w,q]
     return answer
+
+문자 반복 출력하기
+
+def solution(my_string, n):
+    answer=""
+    for x in my_string:
+        answer=answer+x*n
+    return answer
